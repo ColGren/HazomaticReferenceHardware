@@ -24,7 +24,7 @@ If discovery succeeds, the app creates a `Sensor` with:
 
 - `mDNSName`: the `<instanceName>.<domain>` host string
 - `ipAddress`: the resolved IPv4 address
-- `id`: a random UUID (temporary, until `/ip` is used)
+- `id`: the uuid from the sps30 or other sensor - this should not change, and must persist through sensor power cycles.
 
 The advertised port is used only for tracking the discovered HTTP URL; the app still targets port 80 for HTTP and port 81 for WebSocket connections.
 
