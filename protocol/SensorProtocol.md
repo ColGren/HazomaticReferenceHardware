@@ -9,7 +9,7 @@ A sensor is expected to expose:
 - HTTP endpoints on port 80 for basic JSON reads and identification.
 - WebSocket endpoint on port 81 for streaming JSON readings and command control.
 
-The app treats each sensor as a device with a unique ID, a location, and a network address. The core data model is `SPS30Output`.
+The app treats each sensor as a device with a unique ID, a location, and a network address. The data model is `SPS30Output`.
 
 ## Discovery (mDNS / Bonjour)
 
@@ -36,16 +36,9 @@ Note: The app triggers the local network permission prompt by opening a TCP conn
 
 Base URL pattern (used for direct reads and ID lookups):
 
-- `http://<ip>:80/read`
 - `http://<ip>:80/selfclean`
 - `http://<ip>:80/ip`
 
-#### GET /read
-
-Returns a single JSON reading payload matching `SPS30Output`.
-
-- Status code must be 2xx on success.
-- Response body must be valid JSON.
 
 #### GET /selfclean
 
