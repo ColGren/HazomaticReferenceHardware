@@ -1,0 +1,56 @@
+Hazomatic Reference Firmware License
+
+Copyright © 2026 Colin Grenfell.
+All rights reserved.
+
+1. GRANT OF LICENSE
+
+Permission is granted to download and flash the Hazomatic firmware
+binary onto compatible hardware for personal or commercial use,
+subject to the restrictions below.
+
+No source code is provided or licensed under this agreement.
+
+2. RESTRICTIONS
+
+You may not:
+
+- Reverse engineer, decompile, disassemble, or otherwise attempt to
+  derive the source code of the firmware.
+- Modify the firmware binary.
+- Redistribute modified versions of the firmware.
+- Represent the firmware as a certified measurement instrument.
+- Use the "Hazomatic" name or branding to imply endorsement,
+  certification, or official product status without written permission.
+
+Redistribution of the unmodified binary is permitted only if this
+license file and all third-party license notices are included.
+
+3. NO WARRANTY
+
+The firmware is provided "AS IS", without warranty of any kind,
+express or implied, including but not limited to warranties of
+merchantability, fitness for a particular purpose, accuracy,
+reliability, or non-infringement.
+
+4. NOT A CERTIFIED INSTRUMENT
+
+This firmware is not a calibrated or certified measurement device.
+It is not approved for occupational health monitoring, regulatory
+compliance, or safety-critical use.
+
+5. LIMITATION OF LIABILITY
+
+To the fullest extent permitted by law, the author shall not be liable
+for any direct, indirect, incidental, special, consequential, or
+punitive damages arising from the use or inability to use the firmware,
+including but not limited to property damage, personal injury, business
+loss, regulatory penalties, or data loss.
+
+6. THIRD-PARTY COMPONENTS
+
+This firmware includes third-party open-source components licensed
+under their respective licenses. See THIRD_PARTY_LICENSES.txt.
+
+By downloading, flashing, or using this firmware, you agree to the
+terms of this license.
